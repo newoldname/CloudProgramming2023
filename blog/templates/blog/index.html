@@ -8,7 +8,7 @@
     <h1>Blog</h1>
     {% for p in posts %}
         <hr/>
-        <h2>{{ p.title }}</h2>
+        <h2><a href="{{p.get_self_link}}">{{ p.title }}</a></h2>
         <h4>{{ p.title }}</h4>
         <p>{{ p.content }}</p>
     {% endfor %}

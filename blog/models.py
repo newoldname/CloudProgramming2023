@@ -11,3 +11,5 @@ class Post(models.Model):
     def __str__(self):
         return f'[{self.pk}]{self.title}'
 
+    def get_self_link(self):
+        return f'/blog/{self.pk}/'
