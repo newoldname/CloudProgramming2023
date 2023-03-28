@@ -137,6 +137,9 @@ migrations/
 # for MacOS
 .DS_Store
 
+# for Media
+_media/
+
 # for Django Migration
 # Only for Development only
  **/migrations/**

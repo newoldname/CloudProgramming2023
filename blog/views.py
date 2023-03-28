@@ -16,7 +16,6 @@ class PostList(ListView):
 #         'blog/index.html',
 #         {
 #             'posts': posts
-#         }
 #     )
 class PostDetail(DetailView):
     model = Post
