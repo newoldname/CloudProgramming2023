@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# for PyCharm(IDM)
+.idea/
+
+# Django Files
+migrations/
+
+# for MacOS
+.DS_Store
+
+# for Django Migration
+# Only for Development only
+ **/migrations/**
+ !**/migrations
+ !**/migrations/__init__.py
